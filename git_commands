@@ -3,3 +3,11 @@ git log
 git reset
 for i in {1..10}; do echo -n "This is a test in loop $i "; date ; sleep 5; done
 git merge
+git remote -v
+
+git remote remove origin
+git remote add origin https://
+
+git merge(conflicts)
+
+git rebase
